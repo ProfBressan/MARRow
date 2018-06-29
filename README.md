@@ -13,13 +13,13 @@ Test
 
 New experiment
  - Add to the (dataset) directory the dataset.
- --- See, for example, the format contained in the (dataset/iris.txt)
+ -- See, for example, the format contained in the (dataset/iris.txt)
  - In (StartProgram.java), configure:
- --- Number of desired iterations in (maxIteration)
- --- Number of samples for evaluation at each iteration in (maxSampleOracle)
- --- Choice of distance function in (distanceFunction)
- --- Value used of the query samples percentage (percentQuerySample)
- ----- Example (percentQuerySample = 10) 10% of samples will be used as query samples.
+ -- Number of desired iterations in (maxIteration)
+ -- Number of samples for evaluation at each iteration in (maxSampleOracle)
+ -- Choice of distance function in (distanceFunction)
+ -- Value used of the query samples percentage (percentQuerySample)
+ --- Example (percentQuerySample = 10) 10% of samples will be used as query samples.
 
 
 Obs. 
