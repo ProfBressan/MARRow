@@ -144,7 +144,7 @@ public class HandleData {
 				numeroE = Integer.parseInt(s[0]);
 				classeE = s[1];
 				for (int j = 2; j < s.length; j++) {
-					featuresE.add(Double.parseDouble(s[j]));
+					featuresE.add(Double.parseDouble(s[j].replaceAll(",", ".")));
 				}
 				this.z.add(new Sample(featuresE, numeroE, classeE));
 			}
@@ -560,7 +560,7 @@ public class HandleData {
 		this.zQuerySamples = new ArrayList<Sample>();
 		int contaAmostrasBusca = 0;
 
-		// Collections.shuffle(this.Z);
+		// Collections.shuffle(this.z);
 
 		for (int j = 0; j < this.linhaMatriz; j++) {
 			contaAmostrasBusca = 0;
