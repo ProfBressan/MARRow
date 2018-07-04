@@ -1,4 +1,4 @@
-# MARRow
+# MARRow (Medical Active leaRning Retrieval)
 The MARRow project is dedicated empirical studies to Active learning in Content-Based Image Retrieval.
 
 # Intodution 
