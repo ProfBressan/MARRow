@@ -1,6 +1,8 @@
 # MARRow (Medical Active leaRning Retrieval)
 The MARRow project is dedicated empirical studies to Active learning in Content-Based Image Retrieval.
 
+BRESSAN, Rafael S.; BUGATTI, Pedro H.; SAITO, Priscila TM. Breast cancer diagnosis through active learning in content-based image retrieval. Neurocomputing, v. 357, p. 1-10, 2019.
+
 # Intodution 
 This proposal consists of efficiently locating the most informative samples in the CBIR process. For this, in the first iteration, N samples are located to be labeled by the expert, this process is simulated automatically by the system, thus, the N samples of the first iteration are formed by 1/3 of samples closer to the query sample and 2/3 of the medoids samples withdrawn from the klusters. After this labeling, the K-NN classifier is trained, classifying the whole set with labels (1 - Revive Sample) or (0 - Irrelevant Sample). Basically, in the next iterations, the algorithm performs the search for more informative samples to training the classification and to improve the recovery process of the others. The most informative samples are the ones that contain the nearest neighbors with a different label.
 
